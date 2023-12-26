@@ -11,6 +11,7 @@ func main() {
 		-> Declared with the const keyword
 		-> In Go constants can only hold values that the compiler can infer to be constant at the compile time
 		-> You cannot make a runtime value constant
+		-> Constants cannot be declared using the := syntax
 	*/
 
 	var number int = packageConst
