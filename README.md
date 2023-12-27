@@ -24,3 +24,8 @@ _Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/b
 
 Slices are an important data type in Go, giving a more powerful interface to sequences than arrays.&nbsp;
 _Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/05-slices/main.go)_
+
+### Slicing
+
+Go allow us to slice a slice or an array which is called slicing.&nbsp;
+_Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/06-slicing/main.go)_
