@@ -29,3 +29,13 @@ _Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/b
 
 Go allow us to slice a slice or an array which is called slicing.&nbsp;
 _Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/06-slicing/main.go)_
+
+### String Slicing | Substring method
+
+Go allow us to slice a string also.&nbsp;
+_Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/07-string-utils/main.go)_
+
+### Map Data Structure
+
+Map data structure in go is used to store key-value pair.&nbsp;
+_Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/08-map/main.go)_
