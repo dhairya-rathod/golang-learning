@@ -47,5 +47,5 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 
 ### If/Else
 
-Go struct allow us create conditional statement using if/else.&nbsp;
+Go allow us create conditional statement using if/else.&nbsp;
 _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/10-conditional-statement/main.go)_
