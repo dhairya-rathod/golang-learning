@@ -39,3 +39,8 @@ _Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/b
 
 Map data structure in go is used to store key-value pair.&nbsp;
 _Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/08-map/main.go)_
+
+### Struct
+
+Go struct allow us define our own custom data type.&nbsp;
+_Detailed explanation [here](https://github.com/dhairya-rathod/golang-learning/blob/master/09-struct/main.go)_
