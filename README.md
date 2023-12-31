@@ -49,3 +49,8 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 
 Go allow us create conditional statement using if/else.&nbsp;
 _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/10-conditional-statement/main.go)_
+
+### Variable Scope
+
+Go has package, function and block level scope.&nbsp;
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/11-variable-scope/main.go)_
