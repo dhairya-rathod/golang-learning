@@ -54,3 +54,8 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 
 Go has package, function and block level scope.&nbsp;
 _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/11-variable-scope/main.go)_
+
+### Loops
+
+Go has only for loop which is capable of replicating for, while and do-while loop.&nbsp;
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/12-loops/main.go)_
