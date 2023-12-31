@@ -64,3 +64,8 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 
 Some of the control flow statement supported by golang are `break`, `continue`, `label` and `goto`.&nbsp;
 _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/13-control-flow-statement/main.go)_
+
+### Switch
+
+Like other languages `break` statement is not required at the end of each case in golang.&nbsp;
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/14-switch/main.go)_
