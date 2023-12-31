@@ -59,3 +59,8 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 
 Go has only for loop which is capable of replicating for, while and do-while loop.&nbsp;
 _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/12-loops/main.go)_
+
+### Statement | Label
+
+Some of the control flow statement supported by golang are `break`, `continue`, `label` and `goto`.&nbsp;
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/13-control-flow-statement/main.go)_
