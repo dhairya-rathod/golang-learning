@@ -69,3 +69,8 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 
 Like other languages `break` statement is not required at the end of each case in golang.&nbsp;
 _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/14-switch/main.go)_
+
+### Function
+
+In golang main function is an entrypoint. It takes no params also return nothing.&nbsp;
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/14-switch/main.go)_
