@@ -73,4 +73,9 @@ _More details [here](https://github.com/dhairya-rathod/golang-learning/blob/mast
 ### Function
 
 In golang main function is an entrypoint. It takes no params also return nothing.&nbsp;
-_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/14-switch/main.go)_
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/15-functions/main.go)_
+
+### Pointers
+
+Pointer is a variable that stores the memory address of a value.&nbsp;
+_More details [here](https://github.com/dhairya-rathod/golang-learning/blob/master/16-pointers/main.go)_
