@@ -9,8 +9,9 @@ func main() {
 	ans01 := challenge01(5, 2)
 	ans02 := challenge02(33)
 	ans03 := challenge03(4, []int{1, 2, 3, 4, 5})
+	ans04 := challenge04("anina")
 
-	fmt.Println(ans01, ans02, ans03)
+	fmt.Println(ans01, ans02, ans03, ans04)
 }
 
 func challenge01(a, b int) int {
@@ -65,4 +66,33 @@ func challenge03(target int, input []int) []int {
 
 	}
 	return []int{}
+}
+
+func challenge04(s string) bool {
+	// check for palindrome string
+	lChar, rChar := 0, len(s)-1
+
+	shouldSkip := func(c byte) bool {
+		return (c < 'a' || c > 'z') && (c < 'A' || c > 'Z') && (c < '0' || c > '9') || c == ' '
+	}
+
+	for lChar <= rChar {
+		if shouldSkip(s[lChar]) {
+			lChar++
+			continue
+		}
+		if shouldSkip(s[rChar]) {
+			rChar--
+			continue
+		}
+
+		if s[lChar] != s[rChar] {
+			return false
+		}
+
+		lChar++
+		rChar--
+	}
+
+	return true
 }
