@@ -1,12 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 	ans01 := challenge01(5, 2)
 	ans02 := challenge02(33)
+	ans03 := challenge03(4, []int{1, 2, 3, 4, 5})
 
-	fmt.Println(ans01, ans02)
+	fmt.Println(ans01, ans02, ans03)
 }
 
 func challenge01(a, b int) int {
@@ -41,4 +45,24 @@ func challenge02(n int) []int {
 		index++
 	}
 	return ans
+}
+
+func challenge03(target int, input []int) []int {
+	// two sum
+	// sort the array
+	sort.Ints(input)
+	point1, point2 := 0, len(input)-1
+
+	for point1 < point2 {
+		if input[point1]+input[point2] == target {
+			return []int{input[point1], input[point2]}
+		}
+		if input[point1]+input[point2] > target {
+			point2--
+		} else {
+			point1++
+		}
+
+	}
+	return []int{}
 }
