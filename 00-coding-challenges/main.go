@@ -12,6 +12,7 @@ func main() {
 	ans04 := challenge04("anina")
 
 	fmt.Println(ans01, ans02, ans03, ans04)
+	fmt.Println(isPalindrome(121))
 }
 
 func challenge01(a, b int) int {
@@ -87,6 +88,27 @@ func challenge04(s string) bool {
 		}
 
 		if s[lChar] != s[rChar] {
+			return false
+		}
+
+		lChar++
+		rChar--
+	}
+
+	return true
+}
+
+func isPalindrome(x int) bool {
+	if x < 0 {
+		return false
+	}
+
+	xStr := string(rune(x))
+	lChar, rChar := 0, len(xStr)-1
+
+	fmt.Println(xStr[lChar],xStr[rChar])
+	for lChar <= rChar {
+		if xStr[lChar] != xStr[rChar] {
 			return false
 		}
 
